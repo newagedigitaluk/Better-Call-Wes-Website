@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bettercallwes.co.uk/sitemap.xml
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /_next/static/
+Disallow: /*.json$
+
+# Allow search engine crawling of all pages
+Allow: /
